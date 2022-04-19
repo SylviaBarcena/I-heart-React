@@ -3,6 +3,10 @@ import './App.css';
 
 const message = 'cool cud';
 
+const Header = () => {
+    return <div className='App-header'>I Heart React</div>;
+};
+
 const Heart = (props) => {
     return (
         <div className='heart'>
